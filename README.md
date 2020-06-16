@@ -1,2 +1,1 @@
-#### 利用github pages实现的个人网站
-#### 地址：http://www.yuliu.dev
+#### 利用github pages实现的[个人网站](http://www.yuliu.dev)
