@@ -7,8 +7,12 @@
     <style> body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:1em; } </style>
   </head>
   <body>
-  <strong>Expify使用指南r</strong> 
-  <p>
+  <h3>Expify 使用指南</h3> 
+  <h4>① 通知设定</h4> 
+  <h5>安卓：许多安卓手机品牌的第三方系统可能会限制手机后台任务，这将会导致通知功能失效。以小米手机为例，若要使后台任务正常运行，请保持 「应用详情-自启动-开启」、「应用详情-省电策略-无限制」。其他手机品牌如何允许 App 后台任务可<a href="https://dontkillmyapp.com/">点击此处查看</a>。</h5> 
+  <h5>iOS：若要正常开启通知功能，请保持「设置-通用-后台 App 刷新-有期」为开启状态。本软件后台通知功能使用 background_fetch 插件开发，根据其特性，如果用户长时间不打开 iOS 应用，iOS 将停止触发事件。若要保持通知功能正常使用，请保持每天打开若干次 App。如果你有关于 Flutter 后台任务更好的解决方案，欢迎您私信我。</h5> 
+  <h4>② 本地备份</h4>
+  <h5>本地备份功能会导出一个名为 backup.zip 的压缩文件，里面是数据库文件和图片文件夹。如果在恢复备份时选择了错误的文件，会导致 App 中的数据丢失。且安卓导出的数据和 iOS 不共通，不能将安卓中导出的数据在 iOS 中恢复备份，否则会出现错误。iOS 同理。</h5> 
   </body>
   </html>
       
